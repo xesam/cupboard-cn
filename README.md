@@ -2,6 +2,8 @@
 
 [Cupboard 官方托管](https://bitbucket.org/littlerobots/cupboard)
 
+[翻译与示例托管](https://github.com/xesam/CupboardTips)
+
 ##Cupboard for Android
 
 Cupboard 是针对 Android 的一个简单的持久化存储方案，简单而且容易与现有代码集成。
@@ -144,4 +146,3 @@ Cupboard 以及预料到这一点：
 所以，如果 _id 没有特别的需求，还是按照 Cupboard 默认要求。
 
 ###Q群：315658668
-
