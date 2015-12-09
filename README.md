@@ -141,3 +141,6 @@ Cupboard 以及预料到这一点：
     cupboard().withDatabase(cupboardSQLiteOpenHelper.getWritableDatabase()).put(simpleBook);
     
 所以，如果 _id 没有特别的需求，还是按照 Cupboard 默认要求。
+
+###Q群：315658668
+
