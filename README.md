@@ -2,7 +2,18 @@
 
 [Cupboard 官网](https://bitbucket.org/littlerobots/cupboard)
 
-[非官方翻译与示例](https://github.com/xesam/CupboardTips)
+[官方文档的非官方翻译与示例](https://github.com/xesam/CupboardTips)
+
+## 官方文档的非官方翻译
+
+1. [快速入门](#start)
+1. [使用数据库【Working_with_databases】](./doc/Working_with_databases.md)
+1. [使用 ContentProviders【Working_with_ContentProviders】](./doc/Working_with_ContentProviders.md)
+1. [使用 Cursor【Working_with_Cursors】](./doc/Working_with_Cursors.md)
+1. [兼容已有数据库【Working_with_existing_data_structures_and_annotation_support】](./doc/Working_with_existing_data_structures_and_annotation_support.md)
+1. [自定义 Converter【Custom_Converters】](./doc/Custom_Converters.md)
+1. [ProGuard 混淆【ProGuard_configuration】](./doc/ProGuard_configuration.md)
+
 
 ## Cupboard for Android
 
@@ -17,7 +28,7 @@ Cupboard 是一个适用于 Android 的持久化存储方案，简单而且容�
 2. 通用的选择：在整个应用中都可以使用所定义的 model 对象，而并不局限于数据库
 3. 完美适应 Android 自有的类，比如 Cursor 以及 ContentValues，这样，可以在任何时候回退到 Android 框架本身的实现
 
-## 快速入门
+## 快速入门<span id="start"></span>
 
 ### 使用方式/Using Cupboard
 
@@ -115,15 +126,6 @@ Cupboard 已经预料到这一点：
     ...
     cupboard().withOperations(ops).put(bookUri, book).put(bookUri, newBook);
 ```
-    
-## 官方文档翻译
-
-1. [使用数据库【Working_with_databases】](./doc/Working_with_databases.md)
-1. [使用 ContentProviders【Working_with_ContentProviders】](./doc/Working_with_ContentProviders.md)
-1. [使用 Cursor【Working_with_Cursors】](./doc/Working_with_Cursors.md)
-1. [兼容已有数据库【Working_with_existing_data_structures_and_annotation_support】](./doc/Working_with_existing_data_structures_and_annotation_support.md)
-1. [自定义 Converter【Custom_Converters】](./doc/Custom_Converters.md)
-1. [ProGuard 混淆【ProGuard_configuration】](./doc/ProGuard_configuration.md)
 
 ## Demo
 
