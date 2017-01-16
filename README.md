@@ -118,16 +118,16 @@ Cupboard 已经预料到这一点：
     
 ## 官方文档翻译
 
-1. [使用数据库/Working_with_databases](./doc/Working_with_databases.md)
-1. [使用 ContentProviders/Working_with_ContentProviders](./doc/Working_with_ContentProviders.md)
-1. [使用 Cursor/Working_with_Cursors](./doc/Working_with_Cursors.md)
-1. [兼容已有数据库/Working_with_existing_data_structures_and_annotation_support](./doc/Working_with_existing_data_structures_and_annotation_support.md)
-1. [自定义 Converter/Custom_Converters](./doc/Custom_Converters.md)
-1. [ProGuard 混淆/ProGuard_configuration](./doc/ProGuard_configuration.md)
+1. [使用数据库【Working_with_databases】](./doc/Working_with_databases.md)
+1. [使用 ContentProviders【Working_with_ContentProviders】](./doc/Working_with_ContentProviders.md)
+1. [使用 Cursor【Working_with_Cursors】](./doc/Working_with_Cursors.md)
+1. [兼容已有数据库【Working_with_existing_data_structures_and_annotation_support】](./doc/Working_with_existing_data_structures_and_annotation_support.md)
+1. [自定义 Converter【Custom_Converters】](./doc/Custom_Converters.md)
+1. [ProGuard 混淆【ProGuard_configuration】](./doc/ProGuard_configuration.md)
 
 ## Demo
 
-参见工程 app
+参见工程 [demo app](https://github.com/xesam/Cupboard-CN)
     
 ## Q&A
 
@@ -136,24 +136,30 @@ Cupboard 已经预料到这一点：
 当然，你也可以定义为 long 或者 int 等等任意其他类型的数值，但是，由于数值的默认值都是 0，因此，Cupboard 无法判断这个值到底是默认值还是用户赋值。
 从而需要用户自己来为维护 _id 的分配。比如，定义如下：
 
+```java
     public class SimpleBook {
         public long _id;
         public String title;
     }
-    
+```
+
 如果你使用下面的调用：
 
+```java
     SimpleBook simpleBook = new SimpleBook();
     simpleBook.title = "title_single_" + System.currentTimeMillis();
     cupboard().withDatabase(cupboardSQLiteOpenHelper.getWritableDatabase()).put(simpleBook);
+```
 
 那么，不论你调用多少次，数据库里面只会得到一条数据，而且 _id = 0；所以除非你手动赋值 _id：
 
+```java
     SimpleBook simpleBook = new SimpleBook();
     simpleBook._id = System.currentTimeMillis();
     simpleBook.title = "title_single_" + System.currentTimeMillis();
     cupboard().withDatabase(cupboardSQLiteOpenHelper.getWritableDatabase()).put(simpleBook);
-    
+```
+
 所以，如果 _id 没有特别的需求，还是按照 Cupboard 默认要求。
 
 ### Q群：315658668
