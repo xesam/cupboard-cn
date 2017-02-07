@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # 使用 ProGuard 的时候避免混淆字段/Keeping field names when using ProGuard
 
 在联合使用 ProGuard 与 Cupboard （或者任何其他的 ORM）的时候，确保 ProGuard 没有修改或者移除 entity 的字段是非常重要的。

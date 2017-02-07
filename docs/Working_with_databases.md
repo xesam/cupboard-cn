@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Working with databases
 Cupboard 的核心目标是从 SQLiteDatabase 中存取对象。
 本章就描述如何使用最少的 SQL 来操作 database。

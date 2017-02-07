@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Working with Cursors
 Android 的 API 通常需要一个 Cursor 来处理列表结果。
 当 [working with databases](./Working_with_databases.md) 或者 [working with content providers](./Working_with_ContentProviders.md) 的时候，

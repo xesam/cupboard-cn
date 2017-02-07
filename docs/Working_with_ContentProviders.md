@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Working with ContentProviders
 在典型的 Android 结构中,使用 ContentProvider 来访问数据。
 ContentProvider 是一种对“提供内容”的抽象。尽管如此，最常见的应用场景还是使用 ContentProvider 来控制 SQLiteDatabase，然后通过 Uri 提供“增删改查”的功能。
