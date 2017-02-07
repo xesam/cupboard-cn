@@ -18,12 +18,12 @@ Cupboard 是一个适用于 Android 的持久化存储方案，简单而且容�
 ## 官方文档的非官方翻译
 
 1. [快速入门](#快速入门)
-1. [使用数据库【Working_with_databases】](./doc/Working_with_databases.md)
-1. [使用 ContentProviders【Working_with_ContentProviders】](./doc/Working_with_ContentProviders.md)
-1. [使用 Cursor【Working_with_Cursors】](./doc/Working_with_Cursors.md)
-1. [兼容已有数据库【Working_with_existing_data_structures_and_annotation_support】](./doc/Working_with_existing_data_structures_and_annotation_support.md)
-1. [自定义 Converter【Custom_Converters】](./doc/Custom_Converters.md)
-1. [ProGuard 混淆【ProGuard_configuration】](./doc/ProGuard_configuration.md)
+1. [使用数据库【Working_with_databases】](./docs/Working_with_databases.md)
+1. [使用 ContentProviders【Working_with_ContentProviders】](./docs/Working_with_ContentProviders.md)
+1. [使用 Cursor【Working_with_Cursors】](./docs/Working_with_Cursors.md)
+1. [兼容已有数据库【Working_with_existing_data_structures_and_annotation_support】](./docs/Working_with_existing_data_structures_and_annotation_support.md)
+1. [自定义 Converter【Custom_Converters】](./docs/Custom_Converters.md)
+1. [ProGuard 混淆【ProGuard_configuration】](./docs/ProGuard_configuration.md)
 
 [官方文档的非官方翻译与示例](https://github.com/xesam/CupboardTips)
 
