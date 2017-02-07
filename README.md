@@ -104,7 +104,7 @@ Cupboard 已经预料到这一点：
     cupboard().withDatabase(db).put(book);
     Cursor cursor = getCursor();
     
-    // 从 cursor 获取第一个条记录
+    // 从 cursor 获取第一条记录
     Book book = cupboard().withCursor(cursor).get(Book.class);
     
     // 遍历所有的记录
