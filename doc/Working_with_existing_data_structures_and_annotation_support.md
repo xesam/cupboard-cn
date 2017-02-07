@@ -1,6 +1,5 @@
 # Working with existing data
 Cupboard 不仅可以存取你自己的数据，还可以与已有的数据进行集成。
-
 许多 Android 框架会返回一个 Cursor 对象，你可以使用 cupboard().withCursor() 来进行衔接。也可以使用 cupboard().withDatabase() 来对已有的数据库进行操作。
 
 通常来说，当使用 Cursor 来处理已有的数据时，更倾向于使用单独的 Cupboard 实例来进行操作，而不是使用 CupboardFactory.cupboard() 得到的全局 Cupboard 实例。
