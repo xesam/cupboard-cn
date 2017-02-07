@@ -1,21 +1,4 @@
-#Cupboard 非官方翻译
-
-[Cupboard 官网](https://bitbucket.org/littlerobots/cupboard)
-
-[官方文档的非官方翻译与示例](https://github.com/xesam/CupboardTips)
-
-## 官方文档的非官方翻译
-
-1. [快速入门](#快速入门)
-1. [使用数据库【Working_with_databases】](./doc/Working_with_databases.md)
-1. [使用 ContentProviders【Working_with_ContentProviders】](./doc/Working_with_ContentProviders.md)
-1. [使用 Cursor【Working_with_Cursors】](./doc/Working_with_Cursors.md)
-1. [兼容已有数据库【Working_with_existing_data_structures_and_annotation_support】](./doc/Working_with_existing_data_structures_and_annotation_support.md)
-1. [自定义 Converter【Custom_Converters】](./doc/Custom_Converters.md)
-1. [ProGuard 混淆【ProGuard_configuration】](./doc/ProGuard_configuration.md)
-
-
-## Cupboard for Android
+# Cupboard for Android 非官方翻译
 
 Cupboard 是一个适用于 Android 的持久化存储方案，简单而且容易与现有代码集成。
 
@@ -27,6 +10,22 @@ Cupboard 是一个适用于 Android 的持久化存储方案，简单而且容�
 1. 非侵入的：不必要继承某个特殊的Activity，model 也不必要去实现某个特殊的接口，甚至都不必要实现 DAO 模式
 2. 通用的选择：在整个应用中都可以使用所定义的 model 对象，而并不局限于数据库
 3. 完美适应 Android 自有的类，比如 Cursor 以及 ContentValues，这样，可以在任何时候回退到 Android 框架本身的实现
+
+## 官网
+
+[Cupboard 官网(目测被墙了)](https://bitbucket.org/littlerobots/cupboard)
+
+## 官方文档的非官方翻译
+
+1. [快速入门](#快速入门)
+1. [使用数据库【Working_with_databases】](./doc/Working_with_databases.md)
+1. [使用 ContentProviders【Working_with_ContentProviders】](./doc/Working_with_ContentProviders.md)
+1. [使用 Cursor【Working_with_Cursors】](./doc/Working_with_Cursors.md)
+1. [兼容已有数据库【Working_with_existing_data_structures_and_annotation_support】](./doc/Working_with_existing_data_structures_and_annotation_support.md)
+1. [自定义 Converter【Custom_Converters】](./doc/Custom_Converters.md)
+1. [ProGuard 混淆【ProGuard_configuration】](./doc/ProGuard_configuration.md)
+
+[官方文档的非官方翻译与示例](https://github.com/xesam/CupboardTips)
 
 ## 快速入门
 
@@ -41,7 +40,7 @@ build.gradle:
     //最新是 2.2.04 所以可以这么写： compile 'nl.qbusict:cupboard:2.1.4'
 
 ```
-    
+
 java 类:
 
 ```java
@@ -164,4 +163,4 @@ Cupboard 已经预料到这一点：
 
 所以，如果 _id 没有特别的需求，还是按照 Cupboard 默认要求。
 
-### Q群：315658668
+### 有问题请联系 [xesam](https://github.com/xesam)，或者加 QQ 群 315658668 讨论
