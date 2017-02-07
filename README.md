@@ -37,8 +37,7 @@ build.gradle:
 
 ```gradle
     compile 'nl.qbusict:cupboard:(insert latest version)'
-    //最新是 2.2.04 所以可以这么写： compile 'nl.qbusict:cupboard:2.1.4'
-
+    //最新是 2.2.0 所以可以这么写： compile 'nl.qbusict:cupboard:2.2.0'
 ```
 
 java 类:
