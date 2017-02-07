@@ -5,7 +5,6 @@ ContentProvider 是一种对“提供内容”的抽象。尽管如此，最常�
 *(译者：如果你的 App 不需要对外提供数据访问，其实是没必要使用 ContentProvider 的，所以，大部分应用其实用不到 ContentProvider)*
 
 在 ContentProvider 的实现中，你可以像在 [working with databases](./Working_with_databases.md) 中描述的那样来使用 Cupboard，直接使用 Cupboard 来存取数据。
-
 本章介绍怎样与 ContentProvider 进行操作。
 
 为了操作 ContentProvider，你需要使用 withContext() 方法。
